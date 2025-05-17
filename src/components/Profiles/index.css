@@ -1,0 +1,6 @@
+.container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  width: 200px;
+  padding: 3px;
+  margin: 4px;
+}
