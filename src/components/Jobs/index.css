@@ -1,7 +1,137 @@
+/* Container layout */
 .container {
   display: flex;
+  padding: 20px;
+  background-color: #f1f5f9;
+  min-height: 100vh;
+  gap: 20px;
 }
-.left {
+
+/* Filters Sidebar */
+.filters-section {
+  width: 280px;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  flex-shrink: 0;
+  height: fit-content;
+  position: sticky;
+  top: 20px;
+}
+
+.filters-section h1 {
+  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: #1e293b;
+  font-weight: 600;
+}
+
+.filters-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.filters-section li {
+  margin-bottom: 10px;
   display: flex;
-  flex-direction: column;
+  align-items: center;
+}
+
+.filters-section input[type='checkbox'],
+.filters-section input[type='radio'] {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.filters-section label {
+  font-size: 16px;
+  color: #334155;
+  cursor: pointer;
+}
+
+/* Jobs Section */
+.jobs-section {
+  flex-grow: 1;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Search Bar */
+.search-bar {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.search-bar input[type='search'] {
+  flex: 1;
+  padding: 10px 14px;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  font-size: 16px;
+  outline: none;
+}
+
+.search-bar button {
+  margin-left: 10px;
+  padding: 10px 20px;
+  background-color: #0ea5e9;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.search-bar button:hover {
+  background-color: #0284c7;
+}
+
+/* Loading and Error */
+.jobs-section p {
+  font-size: 18px;
+  color: #64748b;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.jobs-section button {
+  margin-top: 10px;
+  background-color: #10b981;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.jobs-section button:hover {
+  background-color: #059669;
+}
+
+/* No Jobs Found */
+.no-jobs-container {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.no-jobs-container img {
+  max-width: 300px;
+  margin-bottom: 20px;
+}
+
+.no-jobs-container h1 {
+  font-size: 22px;
+  color: #1e293b;
+  margin-bottom: 10px;
+}
+
+.no-jobs-container p {
+  font-size: 16px;
+  color: #475569;
 }

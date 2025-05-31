@@ -126,15 +126,18 @@ class JobCard extends Component {
         </div>
 
         <div className="job-description">
-          <h1>Description</h1>
-          <a
-            href={eachJobDetails.companyWebsiteUrl}
-            target="_blank"
-            rel="noreferrer"
-          >
-            Visit
-          </a>
-          <p>{eachJobDetails.jobDescription}</p>
+          <ul>
+            <h1>Description</h1>
+            <a
+              href={eachJobDetails.companyWebsiteUrl}
+              target="_blank"
+              rel="noreferrer"
+              alt="website logo"
+            >
+              Visit
+            </a>
+            <p>{eachJobDetails.jobDescription}</p>
+          </ul>
         </div>
 
         <div className="skills-section">

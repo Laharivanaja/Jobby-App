@@ -23,6 +23,7 @@ const Header = props => {
             type="button"
             className="nav-mobile-btn"
             onClick={onClickLogout}
+            data-testid="logout-button"
           >
             <img
               src="https://assets.ccbp.in/frontend/react-js/nxt-trendz-log-out-img.png"
@@ -52,6 +53,7 @@ const Header = props => {
               type="button"
               className="logout-desktop-btn"
               onClick={onClickLogout}
+              data-testid="logout-button"
             >
               Logout
             </button>
