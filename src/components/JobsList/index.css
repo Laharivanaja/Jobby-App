@@ -1,5 +1,35 @@
-.background-container {
+.jobs-list {
+  padding: 0;
+  list-style-type: none;
+}
+
+.job-item {
+  background-color: #272727;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.job-item a {
+  text-decoration: none !important;
+  color: #ffffff !important;
+}
+
+.job-item h1 {
+  color: #ffffff !important;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.job-description-para {
+  color: #cbd5e1 !important;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.location-type-package {
   display: flex;
-  flex-direction: column;
-  width: 70vw;
+  justify-content: space-between;
+  margin: 15px 0;
+  color: #f1f5f9;
 }
