@@ -212,7 +212,9 @@ class Jobs extends Component {
                 value={searchInput}
                 onChange={this.onChangeSearch}
               />
-              <button onClick={this.onClickSearch}>Search</button>
+              <button type="button" onClick={this.onClickSearch}>
+                Search
+              </button>
             </div>
             {isLoading ? <p>Loading...</p> : <JobsList jobs={jobsList} />}
             {error && <p>Something went wrong!</p>}

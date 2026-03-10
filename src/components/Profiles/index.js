@@ -57,7 +57,11 @@ class Profiles extends Component {
     )
   }
 
-  failureView = () => <button onClick={this.getProfileList}>Retry</button>
+  failureView = () => (
+    <button type="button" onClick={this.getProfileList}>
+      Retry
+    </button>
+  )
 
   render() {
     const {status} = this.state

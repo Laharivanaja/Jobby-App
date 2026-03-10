@@ -18,6 +18,7 @@ const Home = () => {
           <h1 className="home-heading">Find The Job That Fits Your Life</h1>
           <img
             src="https://assets.ccbp.in/frontend/react-js/home-sm-bg.png"
+            alt="home"
             className="home-mobile-img"
           />
           <p className="home-description">
