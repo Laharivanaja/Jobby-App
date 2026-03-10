@@ -143,11 +143,9 @@ class Jobs extends Component {
     }
 
     const {
-      employmentTypes,
-      salaryRange,
       jobsList,
       searchInput,
-      selectedLocations,
+
       isLoading,
       error,
     } = this.state
