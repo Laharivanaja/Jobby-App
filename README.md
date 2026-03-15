@@ -137,20 +137,4 @@ Lahari Prasanna Yarlagadda
 GitHub:
 https://github.com/Laharivanaja
 
-⭐ If you like this project
 
-Please ⭐ the repository to support my work.
-
-✅ This README is good for recruiters and GitHub portfolio.
-
-If you want, I can also give you a much stronger README (like senior developers use) with:
-
-✨ Project preview images
-
-🚀 Live demo section
-
-📊 Skills highlighted for recruiters
-
-💼 Resume-ready project description
-
-It will make your GitHub look 10x more professional.
